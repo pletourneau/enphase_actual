@@ -1,8 +1,16 @@
+<!-- HTML Structure -->
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-  <title>New Title</title>
+  <title>Enphase Live Data</title>
 </head>
 <body>
+  <h1>Enphase Live Data</h1>
+  <button id="authorizeButton">Authorize</button>
+  <button id="fetchDataButton" style="display: none;">Fetch Live Data</button>
+  <div id="liveDataContainer" style="display: none;">
+    <h2>Live Data:</h2>
+    <pre id="liveData"></pre>
+  </div>
 </body>
 </html>
